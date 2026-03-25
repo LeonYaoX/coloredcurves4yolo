@@ -80,6 +80,22 @@ outputs/
     └── metrics_for_custom_plots/
 ```
 
+## Example Comparison
+
+Below is a real `imgsz=960` validation example that compares the custom grouped
+`Precision vs Confidence` plots with the native Ultralytics `BoxP_curve`.
+
+Custom grouped `Precision vs Confidence` examples:
+
+![Custom Precision vs Confidence Chunk 1](outputs/verify_imgsz960/colorful_illustrative_curves/precision_vs_conf_chunk_1.png)
+![Custom Precision vs Confidence Chunk 2](outputs/verify_imgsz960/colorful_illustrative_curves/precision_vs_conf_chunk_2.png)
+![Custom Precision vs Confidence Chunk 3](outputs/verify_imgsz960/colorful_illustrative_curves/precision_vs_conf_chunk_3.png)
+![Custom Precision vs Confidence Chunk 4](outputs/verify_imgsz960/colorful_illustrative_curves/precision_vs_conf_chunk_4.png)
+
+Native Ultralytics comparison:
+
+![Ultralytics Native BoxP Curve](outputs/verify_imgsz960/ultralytics_native_outputs/BoxP_curve.png)
+
 ## CLI Options
 
 ```text
