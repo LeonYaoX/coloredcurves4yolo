@@ -1,0 +1,4 @@
+matplotlib>=3.7
+numpy>=1.23
+PyYAML>=6.0
+ultralytics>=8.0.0

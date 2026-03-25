@@ -1,0 +1,50 @@
+# Seaclear Marine Debris Dataset Configuration (YOLO Format)
+# YOLOv8 native format dataset configuration
+
+# Dataset paths
+path: /mnt/d/coloredcurves4yolo/data  # dataset root dir
+train: train/images  # train images directory (relative to 'path')
+val: val/images      # val images directory (relative to 'path')
+
+# Number of classes
+nc: 34
+
+# Class names (0-indexed for YOLOv8)
+names:
+  0: plastic_pieces
+  1: rope
+  2: snack_wrapper
+  3: rov_bluerov
+  4: rov_vehicle_leg
+  5: animal_fish
+  6: cable_metal
+  7: branch_wood
+  8: rov_tortuga
+  9: rov_cable
+  10: jar_glass
+  11: tire_rubber
+  12: boot_rubber
+  13: cup_ceramic
+  14: clothing_fiber
+  15: sanitaries_plastic
+  16: bag_plastic
+  17: brick_clay
+  18: cup_plastic
+  19: animal_urchin
+  20: animal_shells
+  21: net_plastic
+  22: pipe_plastic
+  23: unknown_instance
+  24: wreckage_metal
+  25: bottle_glass
+  26: animal_sponge
+  27: animal_etc
+  28: container_metal
+  29: plant
+  30: tube_cement
+  31: bottle_plastic
+  32: container_plastic
+  33: can_metal
+
+# Download settings
+download: False 

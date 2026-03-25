@@ -1,0 +1,14 @@
+.venv*/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+outputs/
+metrics_for_custom_plots/
+colorful_illustrative_curves/
+*.cache
+data/
+.venv_gpu_attempt/
+v8m960.pt
+dataset.yaml
